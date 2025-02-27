@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <!-- Scripts -->
+    <script type="module" src="/src/animations.ts" defer></script>
+    <script type="module" src="/src/hamburgerMenu.ts" defer></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/src/style.css" />
+    <!-- Markup -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mam na imię Mariusz, urodziłem się w 1986 roku i pochodzę z
+    Kołobrzegu. Sztuką zajmuję się od dzieciństwa, odkąd pamiętam lubiłem
+    rysować i odrysowywać różnego typu motywy. W 1996 roku zacząłem
+    malować graffiti, po tym jak podczas spaceru ujrzałem prace lokalnych
+    artystów - to mnie zainspirowało. Choć w szkole byłem raczej
+    słabym uczniem, to moje prace zdobiły hole szkół, do których
+    chodziłem. W podstawówce i gimnazjum były to prace malowane farbami
+    plakatowymi na papierze, a później farbami w areozolu. To moje hobby,
+    które cały czas rozwijam. Obecnie zajmuję się malowaniem aerografem na
+    płótnie, a także na ścianach."
+    />
+    <meta name="theme-color" content="#0bf" />
+    <meta name="author" content="Mateusz Muszarski" />
+    <meta
+      name="keywords"
+      content="Graffiti, Rysunki, Prace, Aerograf, Plakaty, Artysta, Sztuka, Malowanie, Farby"
+    />
+    <meta name="application-name" content="mesku.art" />
+    <meta property="og:type" content="website" />
+    <meta title="Kontakt" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <title>Kontakt - mesku.art</title>
+  </head>
+  <body
+    class="bg-[url(/assets/images/background.png)] bg-fixed bg-cover bg-center bg-no-repeat min-h-screen"
+  >
+    <!-- NavBar -->
+    <nav
+      class="sticky top-0 left-0 z-30 bg-neutral-50 h-20 transition-[height] ease-in-out duration-300 py-1.5 px-side flex justify-between items-start shadow overflow-hidden"
+    >
+      <!-- Logo -->
+      <a class="h-fit" href="/" title="Wróć do strony głównej">
+        <img
+          src="/logo.png"
+          class="h-16"
+          alt="mesku.art logo"
+          fetchpriority="high"
+        />
+      </a>
+
+      <!-- Hamburger menu button -->
+      <button
+        id="hamburger-menu-btn"
+        class="md:hidden p-2 pt-7 flex flex-col gap-1.5 justify-center items-end before:w-6 before:h-0.5 before:bg-black before:content-[''] before:block before:transition-[width] before:duration-200 after:w-4 after:h-0.5 after:bg-black after:content-[''] after:block after:transition-[width] after:duration-200"
+        title="Rozwiń menu"
+      ></button>
+
+      <!-- Links -->
+      <ul
+        class="flex items-center gap-5 font-medium text-lg pt-[1.125rem] max-md:absolute max-md:flex-col max-md:top-20 max-md:items-start"
+      >
+        <li
+          class="hover:tracking-wide hover:font-semibold focus-within:tracking-wide focus-within:font-semibold transition-all"
+        >
+          <a class="flex items-center gap-2" href="/moje-prace"
+            ><span>MOJE PRACE</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-images"
+            >
+              <path d="M18 22H4a2 2 0 0 1-2-2V6" />
+              <path d="m22 13-1.296-1.296a2.41 2.41 0 0 0-3.408 0L11 18" />
+              <circle cx="12" cy="8" r="2" />
+              <rect width="16" height="16" x="6" y="2" rx="2" />
+            </svg>
+          </a>
+        </li>
+        <li class="text-xs select-none max-md:hidden">∙</li>
+        <li class="opacity-50">
+          <a class="flex items-center gap-2 pointer-events-none" href="/kontakt"
+            ><span>KONTAKT</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-user"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <circle cx="12" cy="10" r="3" />
+              <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Contact section -->
+    <main
+      class="min-h-[calc(100vh-var(--spacing)*20-var(--spacing)*24)] px-side py-16 flex justify-center items-center max-xl:gap-16 xl:gap-4 max-xl:flex-col"
+    >
+      <!-- Info -->
+      <div class="basis-[50%]">
+        <h1
+          id="contact-heading"
+          class="md:text-6xl max-md:text-5xl [clip-path:polygon(0_0,100%_0,100%_100%,0%_100%);] text-neutral-50 font-extrabold"
+        >
+          Kontakt
+        </h1>
+        <ul
+          id="contact-info-list"
+          class="text-neutral-50 md:text-2xl xs:text-xl max-xs:text-md font-medium pt-7"
+        >
+          <li class="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-user-round text-neutral-50"
+            >
+              <circle cx="12" cy="8" r="5" />
+              <path d="M20 21a8 8 0 0 0-16 0" />
+            </svg>
+            <span>Mariusz Chabasiński</span>
+          </li>
+          <li class="flex items-center gap-2 pt-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-mail"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            <a
+              class="hover:underline hover:font-bold focus-within:underline focus-within:font-bold"
+              href="mailto:chabasinskimariusz04@gmail.com"
+              >chabasinskimariusz04@gmail.com</a
+            >
+          </li>
+          <li class="flex items-center gap-2 pt-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-phone text-neutral-50"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+            <a
+              class="hover:underline hover:font-bold focus-within:underline focus-within:font-bold"
+              href="tel:+48534012933"
+              >+48 534 012 933</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Logo image -->
+      <div class="basis-[50%]">
+        <img
+          id="contact-logo-image"
+          class="brightness-0 invert w-[30rem]"
+          fetchpriority="high"
+          src="/logo.png"
+          alt="mesku.art logo"
+        />
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="h-24 bg-black/75 text-neutral-300 flex items-center justify-between px-side max-xs:text-xs"
+    >
+      <!-- Copyright -->
+      <small class="max-sm:flex max-sm:flex-col">
+        <span>
+          <span>&copy; 2025</span>
+          <a
+            class="hover:underline hover:text-neutral-50 focus-within:underline focus-within:text-neutral-50"
+            href="https://mesku.art"
+          >
+            mesku.art
+          </a>
+        </span>
+        <span class="max-sm:hidden">&dash;</span>
+        <span>Wszystkie prawa zastrzeżone</span>
+      </small>
+
+      <!-- Contact info -->
+      <small class="max-sm:flex max-sm:flex-col max-sm:text-right">
+        <a
+          class="hover:underline hover:text-neutral-50 focus-within:underline focus-within:text-neutral-50"
+          href="mailto:chabasinskimariusz04@gmail.com"
+        >
+          chabasinskimariusz04@gmail.com
+        </a>
+        <span class="px-2 max-sm:hidden">|</span>
+        <a
+          class="hover:underline hover:text-neutral-50 focus-within:underline focus-within:text-neutral-50"
+          href="tel:+48543012933"
+        >
+          +48 543 012 933
+        </a>
+      </small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* TailwindCSS config */
+@theme {
+  --breakpoint-xs: 25rem;
+  --breakpoint-2xl: 110rem;
+}
+
+/* Fonts */
+@font-face {
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 200 800;
+  src: url("/assets/fonts/PlusJakartaSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Plus Jakarta Sans;
+  font-style: italic;
+  font-weight: 200 800;
+  src: url("/assets/fonts/PlusJakartaSans_italic.ttf") format("truetype");
+}
+
+/* CSS Resets */
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Plus Jakarta Sans, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(0, 255, 255, 0.2);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Custom additional classes */
+.px-side {
+  @apply 2xl:px-16 xl:px-10 max-sm:px-4 sm:px-8;
+}
+
+.hamburger-menu-nav-active {
+  @apply h-52;
+}
+
+.hamburger-menu-btn-active {
+  @apply before:w-4 after:w-6;
+}
+
+.text-cyan-gradient {
+  @apply text-transparent bg-gradient-to-r from-cyan-200 to-neutral-50 bg-clip-text;
+}
+
+.splide__pagination {
+  display: flex !important;
+  position: static !important;
+}
+
+dialog {
+  --duration: 0.25s;
+
+  transition: translate var(--duration) ease-in-out,
+    scale var(--duration) ease-in-out, filter var(--duration) ease-in-out,
+    display var(--duration) ease-in-out allow-discrete,
+    opacity var(--duration) ease-in-out;
+
+  &[open] {
+    /* Post-Entry (Normal) State */
+    scale: 1;
+    filter: blur(0);
+    opacity: 1;
+
+    /* Pre-Entry State */
+    @starting-style {
+      scale: 0.95;
+      filter: blur(0.5rem);
+      opacity: 0;
+    }
+  }
+
+  /* Exiting State */
+  &:not([open]) {
+    scale: 0.95;
+    filter: blur(0.5rem);
+    opacity: 0;
+  }
+}

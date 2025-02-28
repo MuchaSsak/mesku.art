@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/MuchaSsak/mesku.art/compare/v1.0.1...v1.0.2) (2025-02-28)
+
+
+### Bug Fixes
+
+* hide .html in URLs ([2f22a12](https://github.com/MuchaSsak/mesku.art/commit/2f22a12c0fdea9ffc0f0bbde80664ca2d895184d))
+
+
+
 ## [1.0.1](https://github.com/MuchaSsak/mesku.art/compare/v1.0.0...v1.0.1) (2025-02-27)
 
 

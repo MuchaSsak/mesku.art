@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/MuchaSsak/mesku.art/compare/v1.0.3...v1.0.4) (2026-06-16)
+
+
+### Bug Fixes
+
+* lazy load gallery and dialogs ([4bcbb20](https://github.com/MuchaSsak/mesku.art/commit/4bcbb20fa0dd741ed01123fd83df52323f79a16b))
+
+
+
 ## [1.0.3](https://github.com/MuchaSsak/mesku.art/compare/v1.0.2...v1.0.3) (2025-03-03)
 
 

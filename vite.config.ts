@@ -1,19 +1,31 @@
 import tailwindcss from "@tailwindcss/vite";
-import { dirname, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 import { defineConfig } from "vite";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
+import site from "./plugins/site/index.ts";
 
 export default defineConfig({
+  // Unknown URLs get a 404 instead of falling back to index.html
+  appType: "mpa",
   build: {
     rollupOptions: {
       input: {
-        about: resolve(__dirname, "index.html"),
-        gallery: resolve(__dirname, "moje-prace.html"),
-        contact: resolve(__dirname, "kontakt.html"),
+        about: resolve(import.meta.dirname, "index.html"),
+        gallery: resolve(import.meta.dirname, "moje-prace.html"),
+        contact: resolve(import.meta.dirname, "kontakt.html"),
+        notFound: resolve(import.meta.dirname, "404.html"),
+      },
+      output: {
+        // The shared stylesheet would be named after a random chunk otherwise
+        assetFileNames: ({ names }) =>
+          names.some((name) => name.endsWith(".css"))
+            ? "assets/style-[hash][extname]"
+            : "assets/[name]-[hash][extname]",
+        manualChunks: {
+          splide: ["@splidejs/splide", "@splidejs/splide-extension-grid"],
+        },
       },
     },
   },
-  plugins: [tailwindcss()],
+  plugins: [tailwindcss(), site()],
 });

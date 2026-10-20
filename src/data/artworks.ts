@@ -1,0 +1,170 @@
+/**
+ * Catalog of all art pieces shown on the website.
+ *
+ * - `id` matches the prefix of the source photo filenames (`{id}_{n}.jpg`,
+ *   `{id}_reference.jpg`) consumed by `scripts/optimize-images.ts`, and sets
+ *   the order of the gallery.
+ * - `slug` is used in image URLs and in the `?zdjecie=` deep link, so avoid
+ *   changing it once published.
+ * - `title` and `medium` are used to build alt texts, structured data and
+ *   accessible names, so keep them descriptive.
+ */
+
+export type ArtworkMedium =
+  | "airbrush"
+  | "spray"
+  | "graffiti-canvas"
+  | "graffiti-wall"
+  | "mural"
+  | "sketch"
+  | "vehicle";
+
+export interface ArtworkEntry {
+  id: number;
+  slug: string;
+  title: string;
+  medium: ArtworkMedium;
+}
+
+export const artworkEntries: ArtworkEntry[] = [
+  { id: 0, slug: "party-kids-dmuchance", title: "Party Kids – dmuchańce", medium: "vehicle" },
+  { id: 1, slug: "laleczka-chucky", title: "Laleczka Chucky", medium: "spray" },
+  { id: 2, slug: "czerwony-krab", title: "Czerwony krab", medium: "spray" },
+  { id: 3, slug: "zniwiarz", title: "Żniwiarz", medium: "airbrush" },
+  { id: 4, slug: "joker-pop-art", title: "Joker – pop-art", medium: "airbrush" },
+  { id: 5, slug: "waz-przebijajacy-plotno", title: "Wąż przebijający płótno", medium: "airbrush" },
+  { id: 6, slug: "watroba", title: "Wątroba – ilustracja anatomiczna", medium: "airbrush" },
+  { id: 7, slug: "top-gun-maverick", title: "Top Gun: Maverick", medium: "airbrush" },
+  { id: 8, slug: "piec-dwa-debiec", title: "Pięć Dwa Dębiec", medium: "airbrush" },
+  { id: 9, slug: "gta-vice-city", title: "Grand Theft Auto: Vice City", medium: "airbrush" },
+  { id: 10, slug: "tomb-raider", title: "Tomb Raider", medium: "airbrush" },
+  { id: 11, slug: "portret-chlopca", title: "Portret chłopca", medium: "airbrush" },
+  { id: 12, slug: "hot-wheels", title: "Hot Wheels", medium: "airbrush" },
+  { id: 13, slug: "harry-potter-hogwart", title: "Harry Potter – Hogwart", medium: "airbrush" },
+  { id: 14, slug: "dinozaur-i-meteoryty", title: "Dinozaur i meteoryty", medium: "airbrush" },
+  { id: 15, slug: "ornament-tribal", title: "Ornament tribal", medium: "airbrush" },
+  { id: 16, slug: "bruce-lee-i-smok", title: "Bruce Lee i smok", medium: "airbrush" },
+  { id: 17, slug: "life-in-the-streets", title: "Life in the Streets", medium: "graffiti-canvas" },
+  { id: 18, slug: "method-man-i-redman", title: "Method Man i Redman", medium: "airbrush" },
+  { id: 19, slug: "czarownice-przy-kotle", title: "Czarownice przy kotle", medium: "airbrush" },
+  { id: 20, slug: "rocky", title: "Rocky", medium: "airbrush" },
+  { id: 21, slug: "koloseum", title: "Koloseum – logo z gladiatorem", medium: "airbrush" },
+  { id: 22, slug: "kobieta-z-czarnymi-lzami", title: "Kobieta z czarnymi łzami", medium: "spray" },
+  { id: 23, slug: "ring", title: "Ring – logo", medium: "airbrush" },
+  { id: 24, slug: "kobieta-w-masce", title: "Kobieta w masce karnawałowej", medium: "airbrush" },
+  { id: 25, slug: "pennywise", title: "Pennywise – „To”", medium: "airbrush" },
+  { id: 26, slug: "litery-w-szkicowniku", title: "Litery w szkicowniku", medium: "sketch" },
+  { id: 27, slug: "golgota", title: "Golgota o zachodzie słońca", medium: "airbrush" },
+  { id: 28, slug: "litery-w-ramie", title: "Litery w drewnianej ramie", medium: "sketch" },
+  { id: 29, slug: "gwiazdzista-noc", title: "Gwiaździsta noc – hołd dla Van Gogha", medium: "airbrush" },
+  { id: 30, slug: "2pac", title: "2Pac", medium: "airbrush" },
+  { id: 31, slug: "madonna", title: "Madonna", medium: "spray" },
+  { id: 32, slug: "kolorowy-stroj", title: "Kolorowy strój", medium: "airbrush" },
+  { id: 33, slug: "joker", title: "Joker", medium: "airbrush" },
+  { id: 34, slug: "zolte-litery", title: "Żółte litery", medium: "graffiti-canvas" },
+  { id: 35, slug: "litery-z-korona", title: "Litery z koroną", medium: "graffiti-canvas" },
+  { id: 36, slug: "the-prodigy", title: "The Prodigy", medium: "spray" },
+  { id: 37, slug: "no-retreat-no-surrender", title: "No Retreat, No Surrender", medium: "airbrush" },
+  { id: 38, slug: "kreskowkowy-mis", title: "Kreskówkowy miś", medium: "airbrush" },
+  { id: 39, slug: "czerwone-litery", title: "Czerwone litery", medium: "graffiti-canvas" },
+  { id: 40, slug: "rozowe-litery", title: "Różowe litery", medium: "graffiti-canvas" },
+  { id: 41, slug: "litery-na-tle-pociagu", title: "Litery na tle pociągu", medium: "graffiti-canvas" },
+  { id: 42, slug: "brazowo-biale-litery", title: "Brązowo-białe litery", medium: "graffiti-wall" },
+  { id: 43, slug: "pomaranczowo-zielone-litery", title: "Pomarańczowo-zielone litery", medium: "graffiti-wall" },
+  { id: 44, slug: "srebrne-litery", title: "Srebrne litery z czerwonym konturem", medium: "graffiti-wall" },
+  { id: 45, slug: "czerwone-kwiaty", title: "Czerwone kwiaty", medium: "mural" },
+  { id: 46, slug: "kolorowe-kwiaty", title: "Kolorowe kwiaty przy schodach", medium: "mural" },
+  { id: 47, slug: "mesk-niebieskie-litery", title: "MESK – niebieskie litery", medium: "graffiti-wall" },
+  { id: 48, slug: "krzyk", title: "Krzyk – hołd dla Muncha", medium: "airbrush" },
+  { id: 49, slug: "czarno-biale-litery", title: "Czarno-białe litery", medium: "graffiti-wall" },
+  { id: 50, slug: "herb-pomezanii", title: "Herb Pomezanii", medium: "airbrush" },
+  { id: 51, slug: "kot", title: "Kot na tęczowym tle", medium: "airbrush" },
+  { id: 52, slug: "2pac-thug-life", title: "2Pac – Thug Life", medium: "airbrush" },
+  { id: 53, slug: "dwa-konie", title: "Dwa konie", medium: "airbrush" },
+  { id: 54, slug: "krav-maga-full-contact", title: "Krav Maga – Full Contact Fighting", medium: "airbrush" },
+  { id: 55, slug: "terminator", title: "Terminator", medium: "airbrush" },
+  { id: 56, slug: "krav-maga-self-defense", title: "Krav Maga – Self Defense", medium: "airbrush" },
+  { id: 57, slug: "gta-san-andreas", title: "Grand Theft Auto: San Andreas", medium: "airbrush" },
+  { id: 58, slug: "jurassic-park", title: "Jurassic Park", medium: "airbrush" },
+  { id: 59, slug: "postal", title: "Postal", medium: "airbrush" },
+  { id: 60, slug: "peknieta-kobieta", title: "Pęknięta kobieta", medium: "airbrush" },
+  { id: 61, slug: "herb-z-trzema-lwami", title: "Herb z trzema lwami", medium: "airbrush" },
+  { id: 62, slug: "mike-tyson", title: "Mike Tyson", medium: "airbrush" },
+  { id: 63, slug: "bloodsport", title: "Bloodsport – Jean-Claude Van Damme", medium: "airbrush" },
+  { id: 64, slug: "dziewczyna-w-goglach", title: "Dziewczyna w goglach – anime", medium: "airbrush" },
+  { id: 65, slug: "super-bomberman", title: "Super Bomberman", medium: "airbrush" },
+  { id: 66, slug: "harry-potter", title: "Harry Potter", medium: "airbrush" },
+  { id: 67, slug: "palmy-o-zachodzie", title: "Palmy o zachodzie słońca", medium: "spray" },
+  { id: 68, slug: "rihanna", title: "Rihanna", medium: "airbrush" },
+  { id: 69, slug: "misie-polarne", title: "Misie polarne", medium: "airbrush" },
+  { id: 70, slug: "2pac-aniol-i-diabel", title: "2Pac – anioł i diabeł", medium: "airbrush" },
+  { id: 71, slug: "wu-tang-clan", title: "Wu-Tang Clan", medium: "airbrush" },
+  { id: 72, slug: "usmiechnieta-dziewczynka", title: "Portret uśmiechniętej dziewczynki", medium: "airbrush" },
+  { id: 73, slug: "dziewczynka-w-kapeluszu", title: "Portret dziewczynki w kapeluszu", medium: "airbrush" },
+  { id: 74, slug: "jednorozec", title: "Jednorożec – fan art", medium: "airbrush" },
+  { id: 75, slug: "bialy-kon", title: "Biały koń na łące", medium: "airbrush" },
+  { id: 76, slug: "kolorowe-fale", title: "Kolorowe fale – abstrakcja", medium: "airbrush" },
+  { id: 77, slug: "abstrakcja-geometryczna", title: "Abstrakcja geometryczna", medium: "airbrush" },
+  { id: 78, slug: "portret-konia", title: "Portret konia", medium: "airbrush" },
+  { id: 79, slug: "the-kiss", title: "The Kiss – pop-art", medium: "airbrush" },
+  { id: 80, slug: "martika", title: "Martika", medium: "airbrush" },
+  { id: 81, slug: "kobra", title: "Kobra", medium: "airbrush" },
+  { id: 82, slug: "the-chemical-brothers", title: "The Chemical Brothers", medium: "airbrush" },
+  { id: 83, slug: "little-black-book", title: "Little Black Fetish Book", medium: "airbrush" },
+  { id: 84, slug: "herb-klubu-sap", title: "Herb klubu piłkarskiego SAP", medium: "airbrush" },
+  { id: 85, slug: "2pac-portret", title: "2Pac – portret", medium: "airbrush" },
+  { id: 86, slug: "the-prodigy-mrowka", title: "The Prodigy – logo z mrówką", medium: "spray" },
+  { id: 87, slug: "matka-z-dzieckiem", title: "Portret matki z dzieckiem", medium: "airbrush" },
+  { id: 88, slug: "anielica-anime", title: "Anielica – anime", medium: "airbrush" },
+  { id: 89, slug: "portret-mezczyzny", title: "Portret mężczyzny", medium: "airbrush" },
+  { id: 90, slug: "aniol-w-skorupce", title: "Anioł w pękniętej skorupce", medium: "airbrush" },
+  { id: 91, slug: "party-kids-rekin", title: "Party Kids – rekin i zjeżdżalnie", medium: "vehicle" },
+  { id: 92, slug: "rycerz-krzyzowy", title: "Rycerz krzyżowy", medium: "airbrush" },
+  { id: 93, slug: "portret-rodzinny", title: "Portret rodzinny", medium: "airbrush" },
+  { id: 94, slug: "srebrno-zlote-litery", title: "Srebrno-złote litery", medium: "sketch" },
+  { id: 95, slug: "medytacja", title: "Medytacja", medium: "airbrush" },
+  { id: 96, slug: "portret-ze-starej-fotografii", title: "Portret ze starej fotografii", medium: "airbrush" },
+  { id: 97, slug: "tulipany", title: "Tulipany z kokardą", medium: "airbrush" },
+  { id: 98, slug: "legolas", title: "Legolas", medium: "airbrush" },
+  { id: 99, slug: "zakochani-o-zachodzie", title: "Zakochani o zachodzie słońca", medium: "airbrush" },
+  { id: 100, slug: "dziewczynka-z-opaska", title: "Portret dziewczynki z opaską", medium: "airbrush" },
+  { id: 101, slug: "maki-na-lace", title: "Maki na łące", medium: "mural" },
+  { id: 102, slug: "drzewo-na-ogrodzeniu", title: "Drzewo i łąka na ogrodzeniu", medium: "mural" },
+  { id: 103, slug: "indianski-wojownik", title: "Indiański wojownik", medium: "airbrush" },
+  { id: 104, slug: "pies", title: "Portret psa", medium: "airbrush" },
+  { id: 105, slug: "sektor-mortal-kombat", title: "Sektor – Mortal Kombat", medium: "airbrush" },
+  { id: 106, slug: "piramidy-i-sfinks", title: "Piramidy i Sfinks", medium: "airbrush" },
+  { id: 107, slug: "brama-zamkowa", title: "Brama zamkowa", medium: "airbrush" },
+  { id: 108, slug: "plomienne-litery", title: "Płomienne litery", medium: "graffiti-canvas" },
+  { id: 109, slug: "kickboxer-2", title: "Kickboxer 2", medium: "airbrush" },
+  { id: 110, slug: "portret-starszej-pary", title: "Portret starszej pary", medium: "airbrush" },
+  { id: 111, slug: "cobra-stallone", title: "Cobra – Sylvester Stallone", medium: "airbrush" },
+  { id: 112, slug: "abstrakcyjna-twarz", title: "Abstrakcyjna twarz", medium: "airbrush" },
+  { id: 113, slug: "ojciec-z-dzieckiem", title: "Portret ojca z dzieckiem", medium: "airbrush" },
+  { id: 114, slug: "portret-kobiety", title: "Portret kobiety", medium: "airbrush" },
+  { id: 115, slug: "rose-titanic", title: "Rose – „Titanic”", medium: "airbrush" },
+  { id: 116, slug: "mr-meeseeks", title: "Mr. Meeseeks", medium: "graffiti-canvas" },
+  { id: 117, slug: "zielona-kobra", title: "Zielona kobra", medium: "airbrush" },
+  { id: 118, slug: "portret-pieciu-osob", title: "Portret pięciu osób", medium: "airbrush" },
+  { id: 119, slug: "kocham-cie", title: "Kocham Cię", medium: "airbrush" },
+  { id: 120, slug: "lampa-naftowa", title: "Lampa naftowa", medium: "airbrush" },
+  { id: 121, slug: "klepsydra", title: "Klepsydra", medium: "airbrush" },
+  { id: 122, slug: "sloneczniki", title: "Słoneczniki", medium: "airbrush" },
+  { id: 123, slug: "czerwony-waz", title: "Czerwony wąż", medium: "airbrush" },
+];
+
+/** Art pieces shown in the home page carousel, in display order. */
+export const featuredArtworkEntries: { slug: string; brighten?: boolean }[] = [
+  { slug: "2pac" },
+  { slug: "joker" },
+  { slug: "zniwiarz" },
+  { slug: "kolorowy-stroj" },
+  { slug: "joker-pop-art" },
+  { slug: "peknieta-kobieta" },
+  { slug: "waz-przebijajacy-plotno" },
+  { slug: "kobieta-w-masce" },
+  { slug: "super-bomberman" },
+  { slug: "mike-tyson" },
+  { slug: "gta-vice-city", brighten: true },
+  { slug: "dinozaur-i-meteoryty", brighten: true },
+];

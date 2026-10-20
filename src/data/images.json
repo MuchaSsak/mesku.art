@@ -1,0 +1,3109 @@
+{
+  "party-kids-dmuchance": [
+    {
+      "name": "0",
+      "hash": "7a3d1841",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#0858a8"
+    },
+    {
+      "name": "1",
+      "hash": "be3389fa",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#888888"
+    },
+    {
+      "name": "2",
+      "hash": "8107d463",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#989898"
+    },
+    {
+      "name": "reference",
+      "hash": "f89d0938",
+      "width": 714,
+      "height": 444,
+      "widths": [
+        714
+      ],
+      "color": "#88d8f8"
+    }
+  ],
+  "laleczka-chucky": [
+    {
+      "name": "0",
+      "hash": "8cf54255",
+      "width": 1052,
+      "height": 841,
+      "widths": [
+        480,
+        960,
+        1052
+      ],
+      "color": "#484848"
+    }
+  ],
+  "czerwony-krab": [
+    {
+      "name": "0",
+      "hash": "54170c7d",
+      "width": 904,
+      "height": 795,
+      "widths": [
+        480,
+        904
+      ],
+      "color": "#483838"
+    }
+  ],
+  "zniwiarz": [
+    {
+      "name": "0",
+      "hash": "f1601d93",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "3d2f9763",
+      "width": 136,
+      "height": 136,
+      "widths": [
+        136
+      ],
+      "color": "#181818"
+    }
+  ],
+  "joker-pop-art": [
+    {
+      "name": "0",
+      "hash": "3e2b2148",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#e8d8d8"
+    },
+    {
+      "name": "reference",
+      "hash": "c4bdcf22",
+      "width": 264,
+      "height": 394,
+      "widths": [
+        264
+      ],
+      "color": "#780808"
+    }
+  ],
+  "waz-przebijajacy-plotno": [
+    {
+      "name": "0",
+      "hash": "6a06aafb",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#c8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "71876204",
+      "width": 536,
+      "height": 958,
+      "widths": [
+        536
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "watroba": [
+    {
+      "name": "0",
+      "hash": "e9883b32",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "b5c633c8",
+      "width": 310,
+      "height": 163,
+      "widths": [
+        310
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "top-gun-maverick": [
+    {
+      "name": "0",
+      "hash": "4f63c8aa",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#180808"
+    },
+    {
+      "name": "reference",
+      "hash": "8d6ea07a",
+      "width": 1600,
+      "height": 590,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "piec-dwa-debiec": [
+    {
+      "name": "0",
+      "hash": "15926e5e",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "47196382",
+      "width": 765,
+      "height": 768,
+      "widths": [
+        765
+      ],
+      "color": "#f8d8a8"
+    }
+  ],
+  "gta-vice-city": [
+    {
+      "name": "0",
+      "hash": "6e56496d",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "reference",
+      "hash": "fd87e8de",
+      "width": 1024,
+      "height": 768,
+      "widths": [
+        960,
+        1024
+      ],
+      "color": "#080808"
+    }
+  ],
+  "tomb-raider": [
+    {
+      "name": "0",
+      "hash": "b8e2f85e",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "75799e3f",
+      "width": 1366,
+      "height": 644,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#080808"
+    }
+  ],
+  "portret-chlopca": [
+    {
+      "name": "0",
+      "hash": "dea763c0",
+      "width": 1385,
+      "height": 1155,
+      "widths": [
+        480,
+        960,
+        1385
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "5b916d1c",
+      "width": 1085,
+      "height": 1336,
+      "widths": [
+        780,
+        1085
+      ],
+      "color": "#080808"
+    }
+  ],
+  "hot-wheels": [
+    {
+      "name": "0",
+      "hash": "a39f1479",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "1",
+      "hash": "1bd20a72",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "7982e43a",
+      "width": 281,
+      "height": 179,
+      "widths": [
+        281
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "harry-potter-hogwart": [
+    {
+      "name": "0",
+      "hash": "0fefc5c5",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "1",
+      "hash": "e5442797",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#c88868"
+    },
+    {
+      "name": "reference",
+      "hash": "371b2996",
+      "width": 1600,
+      "height": 939,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#281818"
+    }
+  ],
+  "dinozaur-i-meteoryty": [
+    {
+      "name": "0",
+      "hash": "777e3c57",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "reference",
+      "hash": "eee3a76d",
+      "width": 1400,
+      "height": 900,
+      "widths": [
+        960,
+        1400
+      ],
+      "color": "#483828"
+    }
+  ],
+  "ornament-tribal": [
+    {
+      "name": "0",
+      "hash": "4a2795f2",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "1",
+      "hash": "82dff655",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "305b1b07",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#b8a8a8"
+    }
+  ],
+  "bruce-lee-i-smok": [
+    {
+      "name": "0",
+      "hash": "8c5adc0f",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#b8a8a8"
+    },
+    {
+      "name": "reference",
+      "hash": "66ce374a",
+      "width": 1080,
+      "height": 1362,
+      "widths": [
+        761,
+        1080
+      ],
+      "color": "#684808"
+    }
+  ],
+  "life-in-the-streets": [
+    {
+      "name": "0",
+      "hash": "406052ed",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#a89898"
+    },
+    {
+      "name": "reference",
+      "hash": "f6eec586",
+      "width": 1250,
+      "height": 340,
+      "widths": [
+        960,
+        1250
+      ],
+      "color": "#080808"
+    }
+  ],
+  "method-man-i-redman": [
+    {
+      "name": "0",
+      "hash": "8c74a77f",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "48560239",
+      "width": 1175,
+      "height": 1080,
+      "widths": [
+        960,
+        1175
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "czarownice-przy-kotle": [
+    {
+      "name": "0",
+      "hash": "dac1ffd7",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "731ffdc9",
+      "width": 473,
+      "height": 627,
+      "widths": [
+        473
+      ],
+      "color": "#080808"
+    }
+  ],
+  "rocky": [
+    {
+      "name": "0",
+      "hash": "d4503122",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#e8e8d8"
+    },
+    {
+      "name": "reference",
+      "hash": "f66e5921",
+      "width": 720,
+      "height": 631,
+      "widths": [
+        720
+      ],
+      "color": "#080808"
+    }
+  ],
+  "koloseum": [
+    {
+      "name": "0",
+      "hash": "50f41a88",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8a8"
+    },
+    {
+      "name": "reference",
+      "hash": "82b7238e",
+      "width": 1045,
+      "height": 1025,
+      "widths": [
+        960,
+        1045
+      ],
+      "color": "#080808"
+    }
+  ],
+  "kobieta-z-czarnymi-lzami": [
+    {
+      "name": "0",
+      "hash": "d123cdd4",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    }
+  ],
+  "ring": [
+    {
+      "name": "0",
+      "hash": "a7c821d0",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#a8a898"
+    },
+    {
+      "name": "reference",
+      "hash": "1c460579",
+      "width": 331,
+      "height": 368,
+      "widths": [
+        331
+      ],
+      "color": "#484848"
+    }
+  ],
+  "kobieta-w-masce": [
+    {
+      "name": "0",
+      "hash": "5286c18d",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#e8d8d8"
+    },
+    {
+      "name": "reference",
+      "hash": "4702ad13",
+      "width": 1120,
+      "height": 1600,
+      "widths": [
+        672,
+        1120
+      ],
+      "color": "#080808"
+    }
+  ],
+  "pennywise": [
+    {
+      "name": "0",
+      "hash": "8164ae37",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "9d24a575",
+      "width": 1224,
+      "height": 725,
+      "widths": [
+        960,
+        1224
+      ],
+      "color": "#080808"
+    }
+  ],
+  "litery-w-szkicowniku": [
+    {
+      "name": "0",
+      "hash": "a81797b4",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "1",
+      "hash": "3c1f1acf",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    }
+  ],
+  "golgota": [
+    {
+      "name": "0",
+      "hash": "23a03ff9",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#180808"
+    },
+    {
+      "name": "reference",
+      "hash": "3b266923",
+      "width": 275,
+      "height": 183,
+      "widths": [
+        275
+      ],
+      "color": "#080808"
+    }
+  ],
+  "litery-w-ramie": [
+    {
+      "name": "0",
+      "hash": "de556089",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8c8a8"
+    }
+  ],
+  "gwiazdzista-noc": [
+    {
+      "name": "0",
+      "hash": "4f5e1623",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#e8d8d8"
+    }
+  ],
+  "2pac": [
+    {
+      "name": "0",
+      "hash": "66d3e199",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#184838"
+    },
+    {
+      "name": "1",
+      "hash": "fd3d1394",
+      "width": 1199,
+      "height": 1600,
+      "widths": [
+        719,
+        1199
+      ],
+      "color": "#787878"
+    },
+    {
+      "name": "reference",
+      "hash": "805b3e0f",
+      "width": 1043,
+      "height": 1210,
+      "widths": [
+        828,
+        1043
+      ],
+      "color": "#282828"
+    }
+  ],
+  "madonna": [
+    {
+      "name": "0",
+      "hash": "07e8ae5e",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#a89888"
+    },
+    {
+      "name": "reference",
+      "hash": "fec1f07d",
+      "width": 600,
+      "height": 900,
+      "widths": [
+        600
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "kolorowy-stroj": [
+    {
+      "name": "0",
+      "hash": "15b4f4c9",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#086858"
+    },
+    {
+      "name": "1",
+      "hash": "c0d3dc4c",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#086858"
+    }
+  ],
+  "joker": [
+    {
+      "name": "0",
+      "hash": "afbcfb2d",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "a4ca32f3",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#080808"
+    }
+  ],
+  "zolte-litery": [
+    {
+      "name": "0",
+      "hash": "8a06ea48",
+      "width": 1600,
+      "height": 800,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8b858"
+    }
+  ],
+  "litery-z-korona": [
+    {
+      "name": "0",
+      "hash": "aaab08b9",
+      "width": 1600,
+      "height": 800,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#e8e8d8"
+    }
+  ],
+  "the-prodigy": [
+    {
+      "name": "0",
+      "hash": "bc74a841",
+      "width": 1600,
+      "height": 800,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8c8b8"
+    }
+  ],
+  "no-retreat-no-surrender": [
+    {
+      "name": "0",
+      "hash": "de9b8bc9",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#288878"
+    },
+    {
+      "name": "reference",
+      "hash": "6cc5e519",
+      "width": 544,
+      "height": 708,
+      "widths": [
+        544
+      ],
+      "color": "#080808"
+    }
+  ],
+  "kreskowkowy-mis": [
+    {
+      "name": "0",
+      "hash": "f02a74b8",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#d8d8d8"
+    },
+    {
+      "name": "reference",
+      "hash": "541df103",
+      "width": 100,
+      "height": 184,
+      "widths": [
+        100
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "czerwone-litery": [
+    {
+      "name": "0",
+      "hash": "2bda2713",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8d8c8"
+    }
+  ],
+  "rozowe-litery": [
+    {
+      "name": "0",
+      "hash": "1dcc4a38",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8a8a8"
+    }
+  ],
+  "litery-na-tle-pociagu": [
+    {
+      "name": "0",
+      "hash": "03c5d091",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#080808"
+    }
+  ],
+  "brazowo-biale-litery": [
+    {
+      "name": "0",
+      "hash": "cfc7adf0",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#88b8c8"
+    }
+  ],
+  "pomaranczowo-zielone-litery": [
+    {
+      "name": "0",
+      "hash": "dddbad48",
+      "width": 580,
+      "height": 435,
+      "widths": [
+        480,
+        580
+      ],
+      "color": "#c8c8c8"
+    }
+  ],
+  "srebrne-litery": [
+    {
+      "name": "0",
+      "hash": "1b70d3fc",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#a8c8d8"
+    },
+    {
+      "name": "1",
+      "hash": "13bda022",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#98a8c8"
+    }
+  ],
+  "czerwone-kwiaty": [
+    {
+      "name": "0",
+      "hash": "6bedae77",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#584838"
+    },
+    {
+      "name": "1",
+      "hash": "7820168a",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    }
+  ],
+  "kolorowe-kwiaty": [
+    {
+      "name": "0",
+      "hash": "96d6e5fe",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#485868"
+    },
+    {
+      "name": "1",
+      "hash": "83da0678",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    }
+  ],
+  "mesk-niebieskie-litery": [
+    {
+      "name": "0",
+      "hash": "5b28edd5",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8c8b8"
+    }
+  ],
+  "krzyk": [
+    {
+      "name": "0",
+      "hash": "0f2f3494",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#b8a8a8"
+    }
+  ],
+  "czarno-biale-litery": [
+    {
+      "name": "0",
+      "hash": "f9ee7bdb",
+      "width": 1600,
+      "height": 800,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#e8e8f8"
+    }
+  ],
+  "herb-pomezanii": [
+    {
+      "name": "0",
+      "hash": "71bb7f8c",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#186868"
+    },
+    {
+      "name": "reference",
+      "hash": "55065019",
+      "width": 168,
+      "height": 200,
+      "widths": [
+        168
+      ],
+      "color": "#d81818"
+    }
+  ],
+  "kot": [
+    {
+      "name": "0",
+      "hash": "9e57f1a9",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#085858"
+    },
+    {
+      "name": "reference",
+      "hash": "e5aaca5a",
+      "width": 240,
+      "height": 240,
+      "widths": [
+        240
+      ],
+      "color": "#989888"
+    }
+  ],
+  "2pac-thug-life": [
+    {
+      "name": "0",
+      "hash": "4afe6938",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#187868"
+    },
+    {
+      "name": "reference",
+      "hash": "953cc1f0",
+      "width": 720,
+      "height": 666,
+      "widths": [
+        720
+      ],
+      "color": "#080808"
+    }
+  ],
+  "dwa-konie": [
+    {
+      "name": "0",
+      "hash": "08be93af",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#185858"
+    },
+    {
+      "name": "reference",
+      "hash": "7e5558cb",
+      "width": 750,
+      "height": 1034,
+      "widths": [
+        696,
+        750
+      ],
+      "color": "#f8f8e8"
+    }
+  ],
+  "krav-maga-full-contact": [
+    {
+      "name": "0",
+      "hash": "03e02c25",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "1",
+      "hash": "4701fabc",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#f8f8e8"
+    },
+    {
+      "name": "reference",
+      "hash": "0c51f97d",
+      "width": 183,
+      "height": 275,
+      "widths": [
+        183
+      ],
+      "color": "#282828"
+    }
+  ],
+  "terminator": [
+    {
+      "name": "0",
+      "hash": "33a61441",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#084848"
+    },
+    {
+      "name": "reference",
+      "hash": "8c2d79b9",
+      "width": 994,
+      "height": 1044,
+      "widths": [
+        914,
+        994
+      ],
+      "color": "#f8e8c8"
+    }
+  ],
+  "krav-maga-self-defense": [
+    {
+      "name": "0",
+      "hash": "bfc3a7ad",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#b8a8a8"
+    },
+    {
+      "name": "reference",
+      "hash": "71a67561",
+      "width": 205,
+      "height": 246,
+      "widths": [
+        205
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "gta-san-andreas": [
+    {
+      "name": "0",
+      "hash": "43f17f27",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#286858"
+    },
+    {
+      "name": "reference",
+      "hash": "2a5790cf",
+      "width": 1599,
+      "height": 714,
+      "widths": [
+        960,
+        1599
+      ],
+      "color": "#98b888"
+    }
+  ],
+  "jurassic-park": [
+    {
+      "name": "0",
+      "hash": "43196ea4",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#281818"
+    },
+    {
+      "name": "reference",
+      "hash": "53c6a874",
+      "width": 887,
+      "height": 596,
+      "widths": [
+        887
+      ],
+      "color": "#080808"
+    }
+  ],
+  "postal": [
+    {
+      "name": "0",
+      "hash": "e3e74580",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#186858"
+    },
+    {
+      "name": "reference",
+      "hash": "6f445154",
+      "width": 297,
+      "height": 170,
+      "widths": [
+        297
+      ],
+      "color": "#483828"
+    }
+  ],
+  "peknieta-kobieta": [
+    {
+      "name": "0",
+      "hash": "07e08fa9",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#c8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "9be4e97d",
+      "width": 346,
+      "height": 360,
+      "widths": [
+        346
+      ],
+      "color": "#080808"
+    }
+  ],
+  "herb-z-trzema-lwami": [
+    {
+      "name": "0",
+      "hash": "8b393b2a",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#988878"
+    }
+  ],
+  "mike-tyson": [
+    {
+      "name": "0",
+      "hash": "5501579d",
+      "width": 1600,
+      "height": 1174,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "21523905",
+      "width": 800,
+      "height": 724,
+      "widths": [
+        800
+      ],
+      "color": "#d8d8d8"
+    }
+  ],
+  "bloodsport": [
+    {
+      "name": "0",
+      "hash": "fad12e63",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#282828"
+    },
+    {
+      "name": "reference",
+      "hash": "4aac0f28",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#080808"
+    }
+  ],
+  "dziewczyna-w-goglach": [
+    {
+      "name": "0",
+      "hash": "e9d05882",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "0d0fe20e",
+      "width": 746,
+      "height": 651,
+      "widths": [
+        746
+      ],
+      "color": "#f8f8f8"
+    }
+  ],
+  "super-bomberman": [
+    {
+      "name": "0",
+      "hash": "4fc824b1",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#286868"
+    },
+    {
+      "name": "reference",
+      "hash": "65f13287",
+      "width": 201,
+      "height": 201,
+      "widths": [
+        201
+      ],
+      "color": "#e8e8e8"
+    }
+  ],
+  "harry-potter": [
+    {
+      "name": "0",
+      "hash": "88c06116",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "reference",
+      "hash": "c5536e51",
+      "width": 300,
+      "height": 168,
+      "widths": [
+        300
+      ],
+      "color": "#080808"
+    }
+  ],
+  "palmy-o-zachodzie": [
+    {
+      "name": "0",
+      "hash": "e79c4700",
+      "width": 1025,
+      "height": 919,
+      "widths": [
+        480,
+        960,
+        1025
+      ],
+      "color": "#281818"
+    }
+  ],
+  "rihanna": [
+    {
+      "name": "0",
+      "hash": "c011ffd1",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#185848"
+    },
+    {
+      "name": "reference",
+      "hash": "457aab74",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#180808"
+    }
+  ],
+  "misie-polarne": [
+    {
+      "name": "0",
+      "hash": "64d2a516",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#b8b8a8"
+    }
+  ],
+  "2pac-aniol-i-diabel": [
+    {
+      "name": "0",
+      "hash": "1ee845eb",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#286858"
+    },
+    {
+      "name": "reference",
+      "hash": "28e03c76",
+      "width": 1052,
+      "height": 545,
+      "widths": [
+        960,
+        1052
+      ],
+      "color": "#d8e8d8"
+    }
+  ],
+  "wu-tang-clan": [
+    {
+      "name": "0",
+      "hash": "f52423a1",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#282828"
+    },
+    {
+      "name": "1",
+      "hash": "625022c4",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#181818"
+    }
+  ],
+  "usmiechnieta-dziewczynka": [
+    {
+      "name": "0",
+      "hash": "3adfcbae",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#989898"
+    },
+    {
+      "name": "reference",
+      "hash": "e25e25c8",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#888888"
+    }
+  ],
+  "dziewczynka-w-kapeluszu": [
+    {
+      "name": "0",
+      "hash": "d804df07",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#185848"
+    },
+    {
+      "name": "reference",
+      "hash": "582e129d",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#185848"
+    }
+  ],
+  "jednorozec": [
+    {
+      "name": "0",
+      "hash": "08dc8b66",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#287868"
+    },
+    {
+      "name": "reference",
+      "hash": "3327bbaa",
+      "width": 800,
+      "height": 576,
+      "widths": [
+        800
+      ],
+      "color": "#985858"
+    }
+  ],
+  "bialy-kon": [
+    {
+      "name": "0",
+      "hash": "e618d856",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#783818"
+    },
+    {
+      "name": "1",
+      "hash": "5d31a334",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#784828"
+    }
+  ],
+  "kolorowe-fale": [
+    {
+      "name": "0",
+      "hash": "3316d94d",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#f8e8e8"
+    },
+    {
+      "name": "1",
+      "hash": "7aa3bcd3",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#382828"
+    }
+  ],
+  "abstrakcja-geometryczna": [
+    {
+      "name": "0",
+      "hash": "398a0b3a",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8d8d8"
+    },
+    {
+      "name": "1",
+      "hash": "fdb6100b",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "2",
+      "hash": "317b0d3c",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    }
+  ],
+  "portret-konia": [
+    {
+      "name": "0",
+      "hash": "b0a4e897",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#b89868"
+    },
+    {
+      "name": "1",
+      "hash": "6c260166",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#c8c8c8"
+    }
+  ],
+  "the-kiss": [
+    {
+      "name": "0",
+      "hash": "a94e426a",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#688898"
+    },
+    {
+      "name": "reference",
+      "hash": "d242b827",
+      "width": 933,
+      "height": 502,
+      "widths": [
+        933
+      ],
+      "color": "#5898c8"
+    }
+  ],
+  "martika": [
+    {
+      "name": "0",
+      "hash": "2d62ca51",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8d8"
+    }
+  ],
+  "kobra": [
+    {
+      "name": "0",
+      "hash": "6807a49f",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "563c7e94",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#c8c8c8"
+    }
+  ],
+  "the-chemical-brothers": [
+    {
+      "name": "0",
+      "hash": "57195693",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#181818"
+    }
+  ],
+  "little-black-book": [
+    {
+      "name": "0",
+      "hash": "d6c47c5c",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#281818"
+    }
+  ],
+  "herb-klubu-sap": [
+    {
+      "name": "0",
+      "hash": "753840fc",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#b8a898"
+    }
+  ],
+  "2pac-portret": [
+    {
+      "name": "0",
+      "hash": "6c52cfb6",
+      "width": 1600,
+      "height": 1559,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "reference",
+      "hash": "f0dfa049",
+      "width": 777,
+      "height": 763,
+      "widths": [
+        777
+      ],
+      "color": "#080808"
+    }
+  ],
+  "the-prodigy-mrowka": [
+    {
+      "name": "0",
+      "hash": "cb23d0e0",
+      "width": 1255,
+      "height": 1600,
+      "widths": [
+        377,
+        753,
+        1255
+      ],
+      "color": "#483838"
+    }
+  ],
+  "matka-z-dzieckiem": [
+    {
+      "name": "0",
+      "hash": "b74b527c",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#888888"
+    },
+    {
+      "name": "reference",
+      "hash": "589f9eaa",
+      "width": 1194,
+      "height": 1600,
+      "widths": [
+        716,
+        1194
+      ],
+      "color": "#a8a8a8"
+    }
+  ],
+  "anielica-anime": [
+    {
+      "name": "0",
+      "hash": "90401dac",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "6b60319b",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#181818"
+    }
+  ],
+  "portret-mezczyzny": [
+    {
+      "name": "0",
+      "hash": "b28e88ff",
+      "width": 1283,
+      "height": 1599,
+      "widths": [
+        385,
+        770,
+        1283
+      ],
+      "color": "#c8d8d8"
+    },
+    {
+      "name": "reference",
+      "hash": "606f0789",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#b8b8b8"
+    }
+  ],
+  "aniol-w-skorupce": [
+    {
+      "name": "0",
+      "hash": "f0acec33",
+      "width": 1600,
+      "height": 1281,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#e8c8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "dacf6e6a",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#081818"
+    }
+  ],
+  "party-kids-rekin": [
+    {
+      "name": "0",
+      "hash": "9a6b672b",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#0848a8"
+    },
+    {
+      "name": "1",
+      "hash": "631d901d",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "2",
+      "hash": "861f2558",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#98b8e8"
+    },
+    {
+      "name": "reference",
+      "hash": "976e7db4",
+      "width": 705,
+      "height": 379,
+      "widths": [
+        705
+      ],
+      "color": "#182828"
+    }
+  ],
+  "rycerz-krzyzowy": [
+    {
+      "name": "0",
+      "hash": "777d9b93",
+      "width": 1600,
+      "height": 1196,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "reference",
+      "hash": "d4325a98",
+      "width": 1200,
+      "height": 660,
+      "widths": [
+        960,
+        1200
+      ],
+      "color": "#282828"
+    }
+  ],
+  "portret-rodzinny": [
+    {
+      "name": "0",
+      "hash": "4fd39a63",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "reference",
+      "hash": "ffb5ec0d",
+      "width": 1600,
+      "height": 969,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#080808"
+    }
+  ],
+  "srebrno-zlote-litery": [
+    {
+      "name": "0",
+      "hash": "57026a5e",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8a8a8"
+    }
+  ],
+  "medytacja": [
+    {
+      "name": "0",
+      "hash": "fa52ef6e",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "reference",
+      "hash": "64c3d7a8",
+      "width": 640,
+      "height": 480,
+      "widths": [
+        640
+      ],
+      "color": "#180808"
+    }
+  ],
+  "portret-ze-starej-fotografii": [
+    {
+      "name": "0",
+      "hash": "54be3594",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "1",
+      "hash": "485d00dd",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "a0853b18",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#888888"
+    }
+  ],
+  "tulipany": [
+    {
+      "name": "0",
+      "hash": "28ed524b",
+      "width": 1578,
+      "height": 1600,
+      "widths": [
+        473,
+        947,
+        1578
+      ],
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "reference",
+      "hash": "1960061f",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#282828"
+    }
+  ],
+  "legolas": [
+    {
+      "name": "0",
+      "hash": "21beb427",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#e8e8d8"
+    },
+    {
+      "name": "reference",
+      "hash": "93c82392",
+      "width": 424,
+      "height": 600,
+      "widths": [
+        424
+      ],
+      "color": "#080808"
+    }
+  ],
+  "zakochani-o-zachodzie": [
+    {
+      "name": "0",
+      "hash": "df7c7e19",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8e8f8"
+    },
+    {
+      "name": "reference",
+      "hash": "51c52162",
+      "width": 1038,
+      "height": 641,
+      "widths": [
+        960,
+        1038
+      ],
+      "color": "#080808"
+    }
+  ],
+  "dziewczynka-z-opaska": [
+    {
+      "name": "0",
+      "hash": "0a663f3b",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "reference",
+      "hash": "2585c999",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#d8b888"
+    }
+  ],
+  "maki-na-lace": [
+    {
+      "name": "0",
+      "hash": "7ece22e1",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#484838"
+    },
+    {
+      "name": "1",
+      "hash": "642a287f",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "2",
+      "hash": "b84daa6a",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#585858"
+    },
+    {
+      "name": "3",
+      "hash": "549a7038",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#282828"
+    },
+    {
+      "name": "4",
+      "hash": "4e944bc6",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "5",
+      "hash": "8baa8323",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#282828"
+    },
+    {
+      "name": "6",
+      "hash": "da3b4ebb",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#282828"
+    }
+  ],
+  "drzewo-na-ogrodzeniu": [
+    {
+      "name": "0",
+      "hash": "cc352c6a",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "1",
+      "hash": "baf8e4e7",
+      "width": 1131,
+      "height": 848,
+      "widths": [
+        960,
+        1131
+      ],
+      "color": "#081808"
+    },
+    {
+      "name": "2",
+      "hash": "e0162516",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#081808"
+    },
+    {
+      "name": "3",
+      "hash": "a3805fc0",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "4",
+      "hash": "2b248307",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#888878"
+    },
+    {
+      "name": "5",
+      "hash": "0543837b",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#888878"
+    },
+    {
+      "name": "6",
+      "hash": "bca1f65d",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#586848"
+    },
+    {
+      "name": "7",
+      "hash": "caf496bf",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#e8e8f8"
+    }
+  ],
+  "indianski-wojownik": [
+    {
+      "name": "0",
+      "hash": "a3d06c82",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "1",
+      "hash": "7dbb9c25",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "2e5a6170",
+      "width": 1081,
+      "height": 1007,
+      "widths": [
+        960,
+        1081
+      ],
+      "color": "#080808"
+    }
+  ],
+  "pies": [
+    {
+      "name": "0",
+      "hash": "178c97b5",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#d8d8d8"
+    },
+    {
+      "name": "1",
+      "hash": "0b737eef",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "877cd2c9",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#584838"
+    }
+  ],
+  "sektor-mortal-kombat": [
+    {
+      "name": "0",
+      "hash": "0d441b89",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#281818"
+    },
+    {
+      "name": "1",
+      "hash": "2e7132bd",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#884828"
+    },
+    {
+      "name": "reference",
+      "hash": "f248c902",
+      "width": 1080,
+      "height": 1265,
+      "widths": [
+        820,
+        1080
+      ],
+      "color": "#080808"
+    }
+  ],
+  "piramidy-i-sfinks": [
+    {
+      "name": "0",
+      "hash": "e2e34088",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#282828"
+    },
+    {
+      "name": "1",
+      "hash": "c655f099",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#b8c8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "29c9500f",
+      "width": 700,
+      "height": 467,
+      "widths": [
+        700
+      ],
+      "color": "#c8d8d8"
+    }
+  ],
+  "brama-zamkowa": [
+    {
+      "name": "0",
+      "hash": "def8ef9c",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "reference",
+      "hash": "1d0b887d",
+      "width": 1600,
+      "height": 1137,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#e8f8f8"
+    }
+  ],
+  "plomienne-litery": [
+    {
+      "name": "0",
+      "hash": "0aa0ede1",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    },
+    {
+      "name": "1",
+      "hash": "e7731606",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#c8c8c8"
+    }
+  ],
+  "kickboxer-2": [
+    {
+      "name": "0",
+      "hash": "ef15bf8a",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "reference",
+      "hash": "e6bd5d03",
+      "width": 581,
+      "height": 768,
+      "widths": [
+        581
+      ],
+      "color": "#282818"
+    }
+  ],
+  "portret-starszej-pary": [
+    {
+      "name": "0",
+      "hash": "0474d34c",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "reference",
+      "hash": "15f65115",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#e8c8a8"
+    }
+  ],
+  "cobra-stallone": [
+    {
+      "name": "0",
+      "hash": "2e5cb6e7",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8d8d8"
+    },
+    {
+      "name": "reference",
+      "hash": "18b5e0ff",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#980808"
+    }
+  ],
+  "abstrakcyjna-twarz": [
+    {
+      "name": "0",
+      "hash": "59138fc0",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#e8d828"
+    },
+    {
+      "name": "reference",
+      "hash": "67510ec9",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#080808"
+    }
+  ],
+  "ojciec-z-dzieckiem": [
+    {
+      "name": "0",
+      "hash": "fb26e90d",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "1",
+      "hash": "7c38265c",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "reference",
+      "hash": "1b8cd775",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#080808"
+    }
+  ],
+  "portret-kobiety": [
+    {
+      "name": "0",
+      "hash": "0c69c37d",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8d8d8"
+    },
+    {
+      "name": "1",
+      "hash": "c766b33d",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "reference",
+      "hash": "89e00163",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#989898"
+    }
+  ],
+  "rose-titanic": [
+    {
+      "name": "0",
+      "hash": "21415cd4",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#888888"
+    },
+    {
+      "name": "reference",
+      "hash": "c0b31ba7",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#181818"
+    }
+  ],
+  "mr-meeseeks": [
+    {
+      "name": "0",
+      "hash": "295550b0",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8d8c8"
+    },
+    {
+      "name": "reference",
+      "hash": "cc6aa752",
+      "width": 283,
+      "height": 282,
+      "widths": [
+        283
+      ],
+      "color": "#78c8e8"
+    }
+  ],
+  "zielona-kobra": [
+    {
+      "name": "0",
+      "hash": "2ae85d39",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#685838"
+    },
+    {
+      "name": "reference",
+      "hash": "d3515887",
+      "width": 1082,
+      "height": 1350,
+      "widths": [
+        769,
+        1082
+      ],
+      "color": "#080808"
+    }
+  ],
+  "portret-pieciu-osob": [
+    {
+      "name": "0",
+      "hash": "65a5132e",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "1",
+      "hash": "d8e5c59c",
+      "width": 1199,
+      "height": 1600,
+      "widths": [
+        719,
+        1199
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "2",
+      "hash": "71333b46",
+      "width": 1600,
+      "height": 1567,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#581818"
+    },
+    {
+      "name": "3",
+      "hash": "903f802b",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        720,
+        1200
+      ],
+      "color": "#080808"
+    },
+    {
+      "name": "4",
+      "hash": "a4ce0ec6",
+      "width": 1131,
+      "height": 1600,
+      "widths": [
+        679,
+        1131
+      ],
+      "color": "#887878"
+    }
+  ],
+  "kocham-cie": [
+    {
+      "name": "0",
+      "hash": "dfe437bb",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#686868"
+    },
+    {
+      "name": "reference",
+      "hash": "d2903b96",
+      "width": 1000,
+      "height": 667,
+      "widths": [
+        960,
+        1000
+      ],
+      "color": "#a80808"
+    }
+  ],
+  "lampa-naftowa": [
+    {
+      "name": "0",
+      "hash": "04475d8c",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#684828"
+    },
+    {
+      "name": "reference",
+      "hash": "0cf00b3e",
+      "width": 928,
+      "height": 1313,
+      "widths": [
+        679,
+        928
+      ],
+      "color": "#080808"
+    }
+  ],
+  "klepsydra": [
+    {
+      "name": "0",
+      "hash": "fad3afdd",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#e8e8e8"
+    },
+    {
+      "name": "reference",
+      "hash": "a6d76861",
+      "width": 928,
+      "height": 1600,
+      "widths": [
+        557,
+        928
+      ],
+      "color": "#181818"
+    }
+  ],
+  "sloneczniki": [
+    {
+      "name": "0",
+      "hash": "33e0a536",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#281818"
+    }
+  ],
+  "czerwony-waz": [
+    {
+      "name": "0",
+      "hash": "5fcf07e2",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#88b8c8"
+    }
+  ]
+}

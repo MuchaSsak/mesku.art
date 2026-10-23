@@ -16,7 +16,7 @@
 - **Reference** = what the artist painted from: a client photo (often b/w, a selfie or a phone screenshot), a logo, a poster, a film still or a digital illustration. There is no board edge and no signature. Saved as `{id}_reference`, shown last in the dialog as „pierwowzór”.
 - Only ONE reference slot per piece. When the artist sends several reference photos (e.g. one per person in a group portrait), combine them side by side into one JPEG (q95, 4:4:4, the same order as the people in the painting) and crop off any phone UI. The older `portret-pieciu-osob` keeps its reference photos as `_1…_4`, a legacy exception.
 - The artist sends things over WhatsApp in this order: painting, then its reference(s), or the reverse. Pair them by subject, not by timestamp alone, and check the chat text for „zamień” (replace an existing piece's photo instead of adding a new piece).
-- New pieces get the next free id (gallery order = id, so new pieces are appended at the end). Titles are descriptive Polish, without client names.
+- New pieces get the next free id. Gallery order = the order of `artworkEntries` (not the id), new pieces are appended at the end unless the artist wants them elsewhere. Pinned at the top: `writer-w-czerwonej-bluzie` (id 125, artist's request 2026-10-20, also first in the home carousel). Titles are descriptive Polish, without client names.
 
 ## Batch log
 ### 2026-10-23 (WhatsApp 2026-10-20/21, 15 files)

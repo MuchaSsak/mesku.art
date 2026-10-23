@@ -2,8 +2,9 @@
  * Catalog of all art pieces shown on the website.
  *
  * - `id` matches the prefix of the source photo filenames (`{id}_{n}.jpg`,
- *   `{id}_reference.jpg`) consumed by `scripts/optimize-images.ts`, and sets
- *   the order of the gallery.
+ *   `{id}_reference.jpg`) consumed by `scripts/optimize-images.ts`.
+ * - The order of this list is the order of the gallery, so a piece can be
+ *   moved without changing its id.
  * - `slug` is used in image URLs and in the `?zdjecie=` deep link, so avoid
  *   changing it once published.
  * - `title` and `medium` are used to build alt texts, structured data and
@@ -27,6 +28,8 @@ export interface ArtworkEntry {
 }
 
 export const artworkEntries: ArtworkEntry[] = [
+  // The artist asked for this one at the top of the site (2026-10-20)
+  { id: 125, slug: "writer-w-czerwonej-bluzie", title: "Writer w czerwonej bluzie", medium: "airbrush" },
   { id: 0, slug: "party-kids-dmuchance", title: "Party Kids – dmuchańce", medium: "vehicle" },
   { id: 1, slug: "laleczka-chucky", title: "Laleczka Chucky", medium: "spray" },
   { id: 2, slug: "czerwony-krab", title: "Czerwony krab", medium: "spray" },
@@ -152,7 +155,6 @@ export const artworkEntries: ArtworkEntry[] = [
   { id: 122, slug: "sloneczniki", title: "Słoneczniki", medium: "airbrush" },
   { id: 123, slug: "czerwony-waz", title: "Czerwony wąż", medium: "airbrush" },
   { id: 124, slug: "podwojny-portret-sluchawki", title: "Podwójny portret – chłopak w słuchawkach", medium: "airbrush" },
-  { id: 125, slug: "writer-w-czerwonej-bluzie", title: "Writer w czerwonej bluzie", medium: "airbrush" },
   { id: 126, slug: "portret-mlodej-pary", title: "Portret młodej pary", medium: "airbrush" },
   { id: 127, slug: "tdw-logo", title: "TDW – logo w płomieniach", medium: "airbrush" },
   { id: 128, slug: "portret-pary-w-sercu", title: "Portret pary w sercu", medium: "airbrush" },

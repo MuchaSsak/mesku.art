@@ -1,50 +1,24 @@
 import { Splide } from "@splidejs/splide";
-import { Grid } from "@splidejs/splide-extension-grid";
 
 import { SPLIDE_I18N } from "../lib/carousel.ts";
 import { initNavigation } from "../lib/navigation.ts";
 
 initNavigation();
 
+// A filmstrip: every photo is shown whole at the same height, the slide width
+// follows the photo (its aspect ratio is set in the markup)
 new Splide("#featured-carousel", {
   type: "loop",
   // Same as the track height in index.html, which reserves the space before mounting
-  height: "18rem",
+  height: "20rem",
+  autoWidth: true,
   autoplay: true,
-  perPage: 2,
   perMove: 1,
+  gap: "6px",
   pagination: false,
-  // Images after the first page are loaded a page before being shown
+  // Lazy images within `preloadPages + 1` slides of the current one are loaded
+  // (perPage is 1), which covers the ~6 slides visible on the widest layouts
   lazyLoad: "nearby",
-  preloadPages: 1,
+  preloadPages: 7,
   i18n: SPLIDE_I18N,
-  grid: {
-    dimensions: [
-      [1, 1],
-      [2, 2],
-      [1, 1],
-      [1, 2],
-      [2, 2],
-      [3, 2],
-    ],
-    gap: {
-      row: "6px",
-      col: "6px",
-    },
-  },
-  breakpoints: {
-    640: {
-      height: "18rem",
-      perPage: 1,
-      grid: {
-        dimensions: [
-          [2, 2],
-          [1, 2],
-          [2, 2],
-          [1, 2],
-          [2, 2],
-        ],
-      },
-    },
-  },
-}).mount({ Grid });
+}).mount();

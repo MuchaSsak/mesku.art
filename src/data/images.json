@@ -196,15 +196,15 @@
   "piec-dwa-debiec": [
     {
       "name": "0",
-      "hash": "15926e5e",
+      "hash": "b5eabca6",
       "width": 1600,
-      "height": 1200,
+      "height": 1131,
       "widths": [
         480,
         960,
         1600
       ],
-      "color": "#c8c8b8"
+      "color": "#182838"
     },
     {
       "name": "reference",
@@ -2838,26 +2838,15 @@
   "portret-kobiety": [
     {
       "name": "0",
-      "hash": "0c69c37d",
+      "hash": "788da7d1",
       "width": 1600,
-      "height": 1200,
+      "height": 1131,
       "widths": [
         480,
         960,
         1600
       ],
-      "color": "#d8d8d8"
-    },
-    {
-      "name": "1",
-      "hash": "c766b33d",
-      "width": 1600,
-      "height": 1131,
-      "widths": [
-        960,
-        1600
-      ],
-      "color": "#080808"
+      "color": "#282828"
     },
     {
       "name": "reference",
@@ -3104,6 +3093,159 @@
         1200
       ],
       "color": "#88b8c8"
+    }
+  ],
+  "podwojny-portret-sluchawki": [
+    {
+      "name": "0",
+      "hash": "0833030d",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#c8c8b8"
+    }
+  ],
+  "writer-w-czerwonej-bluzie": [
+    {
+      "name": "0",
+      "hash": "c8f54839",
+      "width": 1200,
+      "height": 1600,
+      "widths": [
+        360,
+        720,
+        1200
+      ],
+      "color": "#989898"
+    }
+  ],
+  "portret-mlodej-pary": [
+    {
+      "name": "0",
+      "hash": "a1529715",
+      "width": 1600,
+      "height": 1131,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    },
+    {
+      "name": "1",
+      "hash": "1e8a0cac",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#988888"
+    }
+  ],
+  "tdw-logo": [
+    {
+      "name": "0",
+      "hash": "51f508e0",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#d8b898"
+    },
+    {
+      "name": "reference",
+      "hash": "cbfe6a8f",
+      "width": 1366,
+      "height": 768,
+      "widths": [
+        960,
+        1366
+      ],
+      "color": "#080808"
+    }
+  ],
+  "portret-pary-w-sercu": [
+    {
+      "name": "0",
+      "hash": "6516dd7b",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b89878"
+    },
+    {
+      "name": "reference",
+      "hash": "440f6075",
+      "width": 1600,
+      "height": 1194,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#080808"
+    }
+  ],
+  "portret-pary-w-okularach": [
+    {
+      "name": "0",
+      "hash": "a6941d99",
+      "width": 1600,
+      "height": 1200,
+      "widths": [
+        480,
+        960,
+        1600
+      ],
+      "color": "#b8b8a8"
+    },
+    {
+      "name": "reference",
+      "hash": "24991e68",
+      "width": 1600,
+      "height": 1115,
+      "widths": [
+        960,
+        1600
+      ],
+      "color": "#a8a8a8"
+    }
+  ],
+  "kon-na-blekitnym-tle": [
+    {
+      "name": "0",
+      "hash": "481d3302",
+      "width": 1205,
+      "height": 1600,
+      "widths": [
+        362,
+        723,
+        1205
+      ],
+      "color": "#b8b8b8"
+    },
+    {
+      "name": "reference",
+      "hash": "8c42770b",
+      "width": 1045,
+      "height": 1600,
+      "widths": [
+        627,
+        1045
+      ],
+      "color": "#c8c8c8"
     }
   ]
 }

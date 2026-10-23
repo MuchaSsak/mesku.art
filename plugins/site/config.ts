@@ -18,7 +18,7 @@ export const ARTIST = {
 
 /** Gallery thumbnails loaded eagerly, the top of the first column. Others are lazy. */
 export const GALLERY_EAGER_IMAGES_COUNT = 2;
-/** Carousel images visible right away (first two pages of the grid), others are loaded by Splide when needed. */
+/** Carousel images loaded with the page (about what a wide layout shows), others are loaded by Splide when needed. */
 export const CAROUSEL_EAGER_IMAGES_COUNT = 5;
 
 export type PageId = "home" | "gallery" | "contact" | "notFound";

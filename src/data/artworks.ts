@@ -151,10 +151,19 @@ export const artworkEntries: ArtworkEntry[] = [
   { id: 121, slug: "klepsydra", title: "Klepsydra", medium: "airbrush" },
   { id: 122, slug: "sloneczniki", title: "Słoneczniki", medium: "airbrush" },
   { id: 123, slug: "czerwony-waz", title: "Czerwony wąż", medium: "airbrush" },
+  { id: 124, slug: "podwojny-portret-sluchawki", title: "Podwójny portret – chłopak w słuchawkach", medium: "airbrush" },
+  { id: 125, slug: "writer-w-czerwonej-bluzie", title: "Writer w czerwonej bluzie", medium: "airbrush" },
+  { id: 126, slug: "portret-mlodej-pary", title: "Portret młodej pary", medium: "airbrush" },
+  { id: 127, slug: "tdw-logo", title: "TDW – logo w płomieniach", medium: "airbrush" },
+  { id: 128, slug: "portret-pary-w-sercu", title: "Portret pary w sercu", medium: "airbrush" },
+  { id: 129, slug: "portret-pary-w-okularach", title: "Portret pary w okularach", medium: "airbrush" },
+  { id: 130, slug: "kon-na-blekitnym-tle", title: "Koń na błękitnym tle", medium: "airbrush" },
 ];
 
 /** Art pieces shown in the home page carousel, in display order. */
 export const featuredArtworkEntries: { slug: string; brighten?: boolean }[] = [
+  // The artist asked for this one at the top of the site (2026-10-20)
+  { slug: "writer-w-czerwonej-bluzie" },
   { slug: "2pac" },
   { slug: "joker" },
   { slug: "zniwiarz" },

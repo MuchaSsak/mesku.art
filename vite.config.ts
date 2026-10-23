@@ -22,7 +22,7 @@ export default defineConfig({
             ? "assets/style-[hash][extname]"
             : "assets/[name]-[hash][extname]",
         manualChunks: {
-          splide: ["@splidejs/splide", "@splidejs/splide-extension-grid"],
+          splide: ["@splidejs/splide"],
         },
       },
     },

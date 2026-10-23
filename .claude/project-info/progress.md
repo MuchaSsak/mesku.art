@@ -1,5 +1,8 @@
 # Status
 
+## 2026-10-23: new art from the artist (uncommitted)
+7 new pieces (ids 124–130) + 2 replaced covers (piec-dwa-debiec, portret-kobiety); see images.md › Batch log. "Writer w czerwonej bluzie" is now the first slide of the home carousel (artist: "na początku strony, takie większe"). The carousel was rebuilt as an uncropped filmstrip; see gotchas.md. User checks the build/visuals themselves. The catalog now has 131 pieces.
+
 ## 2026-10-20: optimization rewrite (committed, user pushes)
 Clean code, static optimized images instead of Supabase, SEO (meta, JSON-LD, image sitemap, robots, real 404), a11y, CSS animations instead of GSAP. Originals moved to `C:\Users\Mucha\Desktop\mesku.art-originals`.
 

@@ -160,11 +160,11 @@ const GALLERY_THUMBNAIL_SIZES = [
 ].join(", ");
 
 /**
- * Carousel tiles take at most a whole page, which is half of the carousel
- * (perPage: 2). Below 640px a page is the whole carousel, split in 2 columns.
+ * Height of the carousel slides in px, same as `height: "20rem"` in
+ * `src/pages/home.ts` and `h-80` in index.html. Every photo is shown whole at
+ * this height, so its width follows from its aspect ratio.
  */
-const CAROUSEL_TILE_SIZES =
-  "(min-width: 1280px) calc(25vw - 24px), (min-width: 640px) calc(50vw - 32px), calc(50vw - 19px)";
+const CAROUSEL_SLIDE_HEIGHT = 320;
 
 /** Transparent pixel, keeps the `<img>` valid until Splide loads the real image */
 const PLACEHOLDER_SRC =
@@ -180,6 +180,7 @@ interface ImageOptions {
   loading: "eager" | "lazy" | "splide";
   highPriority?: boolean;
   className: string;
+  style?: string;
 }
 
 function renderImage(image: ArtworkImage, options: ImageOptions) {
@@ -195,6 +196,7 @@ function renderImage(image: ArtworkImage, options: ImageOptions) {
 
   return `<img
           class="${options.className}"
+          ${options.style ? `style="${options.style}"` : ""}
           ${sources}
           sizes="${options.loading === "lazy" ? `auto, ${options.sizes}` : options.sizes}"
           width="${image.width}"
@@ -212,12 +214,16 @@ export function renderCarouselSlides(
   return slides
     .map(({ artwork, brighten }, index) => {
       const isLast = index === slides.length - 1;
+      const { width, height } = artwork.cover;
       const image = renderImage(artwork.cover, {
-        sizes: CAROUSEL_TILE_SIZES,
+        sizes: `${Math.ceil((CAROUSEL_SLIDE_HEIGHT * width) / height)}px`,
         loading: index < CAROUSEL_EAGER_IMAGES_COUNT ? "eager" : "splide",
         highPriority: index < 2,
+        // An explicit ratio (not `auto`), so the slide has its final width
+        // while the placeholder pixel is shown and Splide measures it right
+        style: `aspect-ratio: ${width} / ${height}`,
         className: [
-          "h-full w-full object-cover",
+          "h-full w-auto max-w-none",
           brighten && "brightness-110",
           isLast && "transition-[scale] duration-300",
         ]

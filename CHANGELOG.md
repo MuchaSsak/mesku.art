@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/MuchaSsak/mesku.art/compare/v1.1.0...v1.2.0) (2026-10-23)
+
+
+### Features
+
+* add new art pieces and show the home carousel uncropped ([f585832](https://github.com/MuchaSsak/mesku.art/commit/f5858322fac90bb2bbf623f84ddb1e8a659b242d))
+* show "Writer w czerwonej bluzie" first in the gallery ([3a9f87a](https://github.com/MuchaSsak/mesku.art/commit/3a9f87ab00803cd7f34a9761c980b979d924c145))
+
+
+
 # [1.1.0](https://github.com/MuchaSsak/mesku.art/compare/v1.0.4...v1.1.0) (2026-10-20)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * hide .html in URLs ([2f22a12](https://github.com/MuchaSsak/mesku.art/commit/2f22a12c0fdea9ffc0f0bbde80664ca2d895184d))
-
-
-
-## [1.0.1](https://github.com/MuchaSsak/mesku.art/compare/v1.0.0...v1.0.1) (2025-02-27)
-
-
-### Bug Fixes
-
-* add vercel config ([b94f10a](https://github.com/MuchaSsak/mesku.art/commit/b94f10a0a56b0ac68f5e1d122067b984407c1d6c))
 
 
 
